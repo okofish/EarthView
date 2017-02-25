@@ -1,0 +1,6 @@
+framework module Pods_EarthView {
+  umbrella header "Pods-EarthView-umbrella.h"
+
+  export *
+  module * { export * }
+}

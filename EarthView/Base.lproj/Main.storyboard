@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EarthView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="z88-tO-9KD">
+                                <rect key="frame" x="940" y="520" width="40" height="40"/>
+                            </activityIndicatorView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68A-ke-taJ">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qyV-qa-YlQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AttributionLogo" translatesAutoresizingMaskIntoConstraints="NO" id="aS5-6y-jBh">
+                                        <rect key="frame" x="1690" y="1030" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="foD-KR-747"/>
+                                            <constraint firstAttribute="height" constant="40" id="jlp-GE-5Kk"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="©2017 CNES / Astrium, Cnes/Spot Image, DigitalGlobe, Landsat" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="e7M-rq-6Ab">
+                                        <rect key="frame" x="30" y="1034" width="1410" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQ6-nb-jVF">
+                                        <rect key="frame" x="1650" y="877" width="270" height="113"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <variation key="userInterfaceStyle=dark">
+                                            <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="calibratedWhite"/>
+                                        </variation>
+                                        <variation key="userInterfaceStyle=light">
+                                            <color key="backgroundColor" white="1" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                                        </variation>
+                                    </view>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menindee" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucA-nM-E6q">
+                                        <rect key="frame" x="0.0" y="887" width="1860" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                        <size key="shadowOffset" width="2" height="2"/>
+                                        <variation key="userInterfaceStyle=dark">
+                                            <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </variation>
+                                        <variation key="userInterfaceStyle=light">
+                                            <nil key="shadowColor"/>
+                                            <color key="textColor" white="0.14999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                                        </variation>
+                                    </label>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Australia" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8D3-2j-t0p">
+                                        <rect key="frame" x="0.0" y="941" width="1860" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                        <size key="shadowOffset" width="2" height="2"/>
+                                        <variation key="userInterfaceStyle=dark">
+                                            <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </variation>
+                                        <variation key="userInterfaceStyle=light">
+                                            <nil key="shadowColor"/>
+                                            <color key="textColor" white="0.14999999999999999" alpha="1" colorSpace="calibratedWhite"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="8D3-2j-t0p" firstAttribute="centerY" secondItem="ucA-nM-E6q" secondAttribute="centerY" constant="50" id="0de-UV-B2q"/>
+                                    <constraint firstItem="uQ6-nb-jVF" firstAttribute="top" secondItem="8D3-2j-t0p" secondAttribute="top" constant="-10" id="4VH-Fq-aL9" userLabel="Text Backdrop Top Constraint - Country"/>
+                                    <constraint firstItem="ucA-nM-E6q" firstAttribute="trailing" secondItem="8D3-2j-t0p" secondAttribute="trailing" id="5CX-Gx-3DE"/>
+                                    <constraint firstItem="8D3-2j-t0p" firstAttribute="leading" secondItem="qyV-qa-YlQ" secondAttribute="leading" id="9la-o9-OrD"/>
+                                    <constraint firstItem="e7M-rq-6Ab" firstAttribute="centerY" secondItem="aS5-6y-jBh" secondAttribute="centerY" id="C7C-na-PUk"/>
+                                    <constraint firstItem="qyV-qa-YlQ" firstAttribute="top" secondItem="68A-ke-taJ" secondAttribute="top" id="Fh9-QS-YQ3"/>
+                                    <constraint firstItem="uQ6-nb-jVF" firstAttribute="bottom" secondItem="8D3-2j-t0p" secondAttribute="bottom" constant="10" id="JfO-Ee-U2v"/>
+                                    <constraint firstItem="qyV-qa-YlQ" firstAttribute="leading" secondItem="68A-ke-taJ" secondAttribute="leading" id="McK-OM-TbU"/>
+                                    <constraint firstAttribute="bottom" secondItem="aS5-6y-jBh" secondAttribute="bottom" constant="10" id="Osq-8H-fED"/>
+                                    <constraint firstAttribute="bottom" secondItem="qyV-qa-YlQ" secondAttribute="bottom" id="T4l-5Q-ZOJ"/>
+                                    <constraint firstItem="ucA-nM-E6q" firstAttribute="leading" secondItem="qyV-qa-YlQ" secondAttribute="leading" id="Taj-dl-bAv"/>
+                                    <constraint firstItem="aS5-6y-jBh" firstAttribute="trailing" secondItem="68A-ke-taJ" secondAttribute="trailing" constant="-30" id="XZC-Ge-iE5"/>
+                                    <constraint firstItem="uQ6-nb-jVF" firstAttribute="leading" secondItem="ucA-nM-E6q" secondAttribute="trailing" constant="-210" id="XZw-np-Cov"/>
+                                    <constraint firstItem="e7M-rq-6Ab" firstAttribute="trailing" secondItem="qyV-qa-YlQ" secondAttribute="trailing" multiplier="0.75" id="eib-MS-Lfm"/>
+                                    <constraint firstItem="e7M-rq-6Ab" firstAttribute="leading" secondItem="qyV-qa-YlQ" secondAttribute="leading" constant="30" id="g1H-vN-9ZL"/>
+                                    <constraint firstItem="uQ6-nb-jVF" firstAttribute="top" secondItem="ucA-nM-E6q" secondAttribute="top" constant="-10" id="lVH-Gt-R64" userLabel="Text Backdrop Top Constraint - Region"/>
+                                    <constraint firstAttribute="trailing" secondItem="qyV-qa-YlQ" secondAttribute="trailing" id="qkU-w7-ltC"/>
+                                    <constraint firstItem="8D3-2j-t0p" firstAttribute="bottom" secondItem="qyV-qa-YlQ" secondAttribute="bottom" constant="-100" id="sp7-pY-iyW"/>
+                                    <constraint firstItem="ucA-nM-E6q" firstAttribute="trailing" secondItem="qyV-qa-YlQ" secondAttribute="trailing" constant="-60" id="x1C-4n-5Fq"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4VH-Fq-aL9"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="68A-ke-taJ" secondAttribute="bottom" id="0Ts-Cy-SO8"/>
+                            <constraint firstItem="68A-ke-taJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LDB-UA-MYm"/>
+                            <constraint firstItem="z88-tO-9KD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LVH-Iu-DpG"/>
+                            <constraint firstAttribute="trailing" secondItem="68A-ke-taJ" secondAttribute="trailing" id="T6l-8f-VOa"/>
+                            <constraint firstItem="uQ6-nb-jVF" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="W7Q-y1-bBp"/>
+                            <constraint firstItem="68A-ke-taJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Wab-kU-J7Q"/>
+                            <constraint firstItem="z88-tO-9KD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fh0-zk-ff2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="attributionText" destination="e7M-rq-6Ab" id="eo0-VO-8VU"/>
+                        <outlet property="countryText" destination="8D3-2j-t0p" id="ZA1-Ym-Vs1"/>
+                        <outlet property="imageGroup" destination="68A-ke-taJ" id="nTp-Fa-Qt3"/>
+                        <outlet property="imageView" destination="qyV-qa-YlQ" id="0H1-iR-C8g"/>
+                        <outlet property="loadingSpinner" destination="z88-tO-9KD" id="cPA-Hv-wBw"/>
+                        <outlet property="regionText" destination="ucA-nM-E6q" id="TKE-tN-2Mp"/>
+                        <outlet property="textBackdrop" destination="uQ6-nb-jVF" id="A1F-Fz-Evw"/>
+                        <outlet property="textBackdropCountryHeightConstraint" destination="4VH-Fq-aL9" id="QOH-Ph-59a"/>
+                        <outlet property="textBackdropLeadingConstraint" destination="XZw-np-Cov" id="nrj-3z-sSq"/>
+                        <outlet property="textBackdropRegionHeightConstraint" destination="lVH-Gt-R64" id="38s-C6-TP8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AttributionLogo" width="735" height="146"/>
+    </resources>
+</document>

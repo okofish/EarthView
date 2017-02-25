@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		889A2EDB1E4E5D8000D9A355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889A2EDA1E4E5D8000D9A355 /* AppDelegate.swift */; };
+		889A2EDD1E4E5D8000D9A355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889A2EDC1E4E5D8000D9A355 /* ViewController.swift */; };
+		889A2EE01E4E5D8000D9A355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889A2EDE1E4E5D8000D9A355 /* Main.storyboard */; };
+		889A2EE21E4E5D8000D9A355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889A2EE11E4E5D8000D9A355 /* Assets.xcassets */; };
+		889A2EEA1E4E5EA100D9A355 /* ImageIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889A2EE91E4E5EA100D9A355 /* ImageIDs.swift */; };
+		889A2EEC1E4E610200D9A355 /* EarthViewAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889A2EEB1E4E610200D9A355 /* EarthViewAPI.swift */; };
+		889A2EEE1E4E932200D9A355 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 889A2EED1E4E932200D9A355 /* Settings.bundle */; };
+		FA80D782E29F36ACC21F021C /* Pods_EarthView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F12BE889FE6A76B163307 /* Pods_EarthView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F5BB01C806F42A3653F0F7E /* Pods-EarthView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthView.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarthView/Pods-EarthView.release.xcconfig"; sourceTree = "<group>"; };
+		7D2F12BE889FE6A76B163307 /* Pods_EarthView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarthView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		889A2ED71E4E5D8000D9A355 /* EarthView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		889A2EDA1E4E5D8000D9A355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		889A2EDC1E4E5D8000D9A355 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		889A2EDF1E4E5D8000D9A355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		889A2EE11E4E5D8000D9A355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		889A2EE31E4E5D8000D9A355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889A2EE91E4E5EA100D9A355 /* ImageIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageIDs.swift; sourceTree = "<group>"; };
+		889A2EEB1E4E610200D9A355 /* EarthViewAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthViewAPI.swift; sourceTree = "<group>"; };
+		889A2EED1E4E932200D9A355 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CF5B823CB63CE167B6AF11A3 /* Pods-EarthView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarthView/Pods-EarthView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889A2ED41E4E5D8000D9A355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA80D782E29F36ACC21F021C /* Pods_EarthView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59305055200C59EB2B973E79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D2F12BE889FE6A76B163307 /* Pods_EarthView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77C2CC5D9F3212E02F51EAF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF5B823CB63CE167B6AF11A3 /* Pods-EarthView.debug.xcconfig */,
+				4F5BB01C806F42A3653F0F7E /* Pods-EarthView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		889A2ECE1E4E5D8000D9A355 = {
+			isa = PBXGroup;
+			children = (
+				889A2ED91E4E5D8000D9A355 /* EarthView */,
+				889A2ED81E4E5D8000D9A355 /* Products */,
+				77C2CC5D9F3212E02F51EAF7 /* Pods */,
+				59305055200C59EB2B973E79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		889A2ED81E4E5D8000D9A355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				889A2ED71E4E5D8000D9A355 /* EarthView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		889A2ED91E4E5D8000D9A355 /* EarthView */ = {
+			isa = PBXGroup;
+			children = (
+				889A2EDA1E4E5D8000D9A355 /* AppDelegate.swift */,
+				889A2EDC1E4E5D8000D9A355 /* ViewController.swift */,
+				889A2EEB1E4E610200D9A355 /* EarthViewAPI.swift */,
+				889A2EE91E4E5EA100D9A355 /* ImageIDs.swift */,
+				889A2EDE1E4E5D8000D9A355 /* Main.storyboard */,
+				889A2EED1E4E932200D9A355 /* Settings.bundle */,
+				889A2EE11E4E5D8000D9A355 /* Assets.xcassets */,
+				889A2EE31E4E5D8000D9A355 /* Info.plist */,
+			);
+			path = EarthView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		889A2ED61E4E5D8000D9A355 /* EarthView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889A2EE61E4E5D8000D9A355 /* Build configuration list for PBXNativeTarget "EarthView" */;
+			buildPhases = (
+				43A74BC26D45F2BE83F0DBF2 /* [CP] Check Pods Manifest.lock */,
+				889A2ED31E4E5D8000D9A355 /* Sources */,
+				889A2ED41E4E5D8000D9A355 /* Frameworks */,
+				889A2ED51E4E5D8000D9A355 /* Resources */,
+				184538B1B3E57CEDFC1AA1C0 /* [CP] Embed Pods Frameworks */,
+				7AFD160B7CA0179B7F79357B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthView;
+			productName = EarthView;
+			productReference = 889A2ED71E4E5D8000D9A355 /* EarthView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		889A2ECF1E4E5D8000D9A355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jesse Friedman";
+				TargetAttributes = {
+					889A2ED61E4E5D8000D9A355 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QD7B3VMGB7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 889A2ED21E4E5D8000D9A355 /* Build configuration list for PBXProject "EarthView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 889A2ECE1E4E5D8000D9A355;
+			productRefGroup = 889A2ED81E4E5D8000D9A355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				889A2ED61E4E5D8000D9A355 /* EarthView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889A2ED51E4E5D8000D9A355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889A2EE21E4E5D8000D9A355 /* Assets.xcassets in Resources */,
+				889A2EEE1E4E932200D9A355 /* Settings.bundle in Resources */,
+				889A2EE01E4E5D8000D9A355 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		184538B1B3E57CEDFC1AA1C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarthView/Pods-EarthView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43A74BC26D45F2BE83F0DBF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AFD160B7CA0179B7F79357B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarthView/Pods-EarthView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		889A2ED31E4E5D8000D9A355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889A2EDD1E4E5D8000D9A355 /* ViewController.swift in Sources */,
+				889A2EDB1E4E5D8000D9A355 /* AppDelegate.swift in Sources */,
+				889A2EEC1E4E610200D9A355 /* EarthViewAPI.swift in Sources */,
+				889A2EEA1E4E5EA100D9A355 /* ImageIDs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		889A2EDE1E4E5D8000D9A355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889A2EDF1E4E5D8000D9A355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		889A2EE41E4E5D8000D9A355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG OVERRIDE_INTERVAL";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		889A2EE51E4E5D8000D9A355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		889A2EE71E4E5D8000D9A355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5B823CB63CE167B6AF11A3 /* Pods-EarthView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = QD7B3VMGB7;
+				INFOPLIST_FILE = EarthView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.jesse.EarthView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		889A2EE81E4E5D8000D9A355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5BB01C806F42A3653F0F7E /* Pods-EarthView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = QD7B3VMGB7;
+				INFOPLIST_FILE = EarthView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.jesse.EarthView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		889A2ED21E4E5D8000D9A355 /* Build configuration list for PBXProject "EarthView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889A2EE41E4E5D8000D9A355 /* Debug */,
+				889A2EE51E4E5D8000D9A355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889A2EE61E4E5D8000D9A355 /* Build configuration list for PBXNativeTarget "EarthView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889A2EE71E4E5D8000D9A355 /* Debug */,
+				889A2EE81E4E5D8000D9A355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 889A2ECF1E4E5D8000D9A355 /* Project object */;
+}
