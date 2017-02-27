@@ -1,4 +1,4 @@
-# EarthView
+# EarthView [![Download EarthView on the App Store](http://f.jesse.ws/tvos/appstore.png)](https://itunes.apple.com/us/app/earthview-for-apple-tv/id1208865687?mt=8)
 
 ![Screenshot of EarthView app](http://f.jesse.ws/tvos/earthview-screenshot.jpg)
 
